@@ -10,8 +10,8 @@ public class PartTwo {
 
     private final static int dayNumber = 1;
 
-    private final static String example = FileNames.getExampleFileName(dayNumber, "example");
-    private final static String input = FileNames.getExampleFileName(dayNumber, "input");
+    private final static String example = FileNames.getFileName(dayNumber, "example");
+    private final static String input = FileNames.getFileName(dayNumber, "input");
 
     private static int totalAppearancesMultiplied = 0;
 

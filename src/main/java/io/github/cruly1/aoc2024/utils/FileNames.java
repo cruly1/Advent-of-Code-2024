@@ -6,7 +6,7 @@ import java.util.Objects;
 
 public class FileNames {
 
-    public static String getExampleFileName(int day, String type) {
+    public static String getFileName(int day, String type) {
         return Objects.requireNonNull(PartOne.class.getClassLoader().getResource("day" + day + "/" + type + ".txt")).getPath();
     }
 }
