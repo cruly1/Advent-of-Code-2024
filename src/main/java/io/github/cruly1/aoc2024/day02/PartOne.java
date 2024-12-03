@@ -5,15 +5,6 @@ import io.github.cruly1.aoc2024.utils.FileUtils;
 
 import java.util.List;
 
-/**
- * @author cruly1
- * read the lines from the input.txt (use example.txt for testing)
- * collect all safe lines into a variable
- * we say a line is safe when:
- * - it's containing elements either increasing or decreasing, both is not an option
- * - the next value if either greater/lower by minimum 1 and maximum 3
- * so for example 1 3 6 7 9 is safe because it's all increasing and the next value if always greater by maximum 3
- */
 public class PartOne {
 
     private final static int dayNumber = 2;
